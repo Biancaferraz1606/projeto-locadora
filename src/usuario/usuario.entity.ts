@@ -6,6 +6,10 @@ export class UsuarioEntity{
     email: string;
     telefone: string;
     senha: string; 
+    duracao: number;
+    sinopse: string;
+    ano: string;
+    genero: any;
     constructor(id: string,nome: string,idade: Number,cidade: string,email: string,telefone: string,senha: string){
         this.id = id;
         this.nome = nome;
